@@ -13,19 +13,19 @@
     <div class="collapse navbar-collapse" id="nav-links">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
+          <router-link class="nav-link" aria-current="page" to="/">Home</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../views/AboutView.vue">About</a>
+          <router-link class="nav-link" to="/about">About</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../views/ProductView.vue">Product</a>
+          <router-link class="nav-link" to="/product">Product</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../views/ProductView.vue">Admin</a>
+          <router-link class="nav-link" to="/admin">Admin</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../views/ProductView.vue">Checkout</a>
+          <router-link class="nav-link" to="/checkout">Checkout</router-link>
         </li>
       </ul>
     </div>
